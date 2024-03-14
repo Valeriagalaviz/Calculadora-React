@@ -1,0 +1,82 @@
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1D2B53; 
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #EEEEEE; 
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 58px;
+  color: #0174BE; 
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bolder;
+}
+  
+p {
+  font-size: 18px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+#nombre {
+  font-size: 14px;
+  color: #FF6969; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter; 
+  font-style: oblique;
+}
+
+input[type="number"] {
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid #0174BE;
+  background-color: white;
+  font-weight: bold; 
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 30px;
+  margin: 3px;
+  border-radius: 5px;
+  border: none;
+  background-color: #C70039;
+  color: white;
+  cursor: pointer;
+  font-weight: bold; 
+}
+
+button:hover {
+  background-color: #FF6969; 
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold; 
+  color: #000;
+}
+
+#resultado-num {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold; 
+  color: #FF6969;
+}
+
