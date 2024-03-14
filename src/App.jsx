@@ -2,7 +2,7 @@ import { useState } from "react"
 import './App.css'
 
 function App() {
-  // Nos ayuda a crear variable dinamicas
+  // Nos ayuda a crear variables dinámicas
   const [numeroUno, setNumeroUno] = useState(0);
   const [numeroDos, setNumeroDos] = useState(0);
   const [resultado, setResultado] = useState(0);
